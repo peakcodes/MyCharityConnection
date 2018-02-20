@@ -73,14 +73,32 @@ canvas{
     width: 216px;
     margin-bottom: -7px;
 }
- a:hover {transition: .8s;
-         border-radius: 50%;
-         border-width: 5px;
-    background-color: transparent;
-    border-color: #010e1c;
-    font-size:150%;
+
+.chickens{
+    padding:10px;
 }
 
+ .chickens:hover {
+
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+    transition: all ease-in-out 150ms;
+    margin-top: -10px; 
+    text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+    transform: translate(0, -8);
+   
+     
+ }
+.navbar-pic:hover {
+    color: rgb(37, 150, 88);
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+    transition:  ease-out 150ms;
+    margin-left: 10px;
+    transition:  ease-in 150ms;
+    margin-right:10px;
+    text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+    transform: translate(0, -8);
+
+}
 /* Main Page Header */
 
 @import url(https://fonts.googleapis.com/css?family=Lato:900);
@@ -181,11 +199,37 @@ div.foo{
     border-color: green;
     border: solid;
 }
+
 .content ul{
+    display:inline-flex;
     list-style: none;
     margin-left: 2em;
     margin-top: 0px;
 }
+
+li{
+    padding:5px;
+}
+
+ li:hover{
+    
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+  
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+alpha:hover {
+    color: #3B5998;
+  }
+
+
+
+
+
 /* Footer style */
 .bottom{
     background-color: #c9e7fc;
