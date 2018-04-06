@@ -2,7 +2,7 @@
 
 An application built to help consumers find local or national charities or non profits to either donate or volunteer their time.
 
-**Please visit out application here: http://pill-pal-pro.herokuapp.com
+**Please visit out application here: https://peakcodes.github.io/MyCharityConnection/
 
 **Real World Problem:
 
